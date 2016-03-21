@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<istasyonlar>
+    <istasyon>
+        <id>1</id>
+        <isim>SüperFM</isim>
+        <url>http://www.radyodinle.name/pop/superfm</url>
+        <resim>http://www.radyodinle.name/images/super_fm.gif"</resim>           
+    </istasyon>
+    <istasyon>
+        <id>2</id>
+        <isim>Kral Pop</isim>
+        <url>http://www.radyodinle.name/pop/superfm</url>
+        <resim>http://www.radyodinle.name/images/super_fm.gif"</resim>           
+    </istasyon>
+    <istasyon>
+        <id>3</id>
+        <isim>Power Türk</isim>
+        <url>http://www.radyodinle.name/pop/superfm</url>
+        <resim>http://www.radyodinle.name/images/super_fm.gif"</resim>           
+    </istasyon>  
+</istasyonlar>

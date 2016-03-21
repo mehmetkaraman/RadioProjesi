@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RadioProject</string>
+    <string name="navigation_drawer_open">navigation drawer Ac</string>
+    <string name="navigation_drawer_close">navigation drawer Kapat</string>
+    <string name="action_settings">Çıkış</string>
+    <string name="title_activity_fullscreen">Radio</string>
+    <string name="dummy_content">YASAMA\nSES VER</string>
+</resources>

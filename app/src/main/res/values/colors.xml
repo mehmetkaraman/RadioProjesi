@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <!-- New Color-->
+    <color name="colorActionBar">#102831</color>
+    <color name="color_Nav_Header">#184952</color>
+    <color name="textColor">#D6E3DE</color>
+    <color name="colorFloating">#4AF77B</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="color_Nav_Header1">#393852</color>
+    <color name="color_Nav_header2">#313052</color>
+    <color name="colorActionBar1">#632C6B</color>
+    <color name="ColorActionBar2">#5A2463</color>
+    <color name="ColorFloating">#FFC107</color>
+    <color name="Black">#000000</color>
+    <!-- dark -->
+    <color name="color_nav_header3">#303030</color>
+    <color name="item_text_Color">#08C6F4</color>
+    <color name="all_color">#212942</color>
+    <color name="colorFloating4">#02CB73</color>
+
+
+    <color name="color_nav_background">#444444</color>
+    <color name="color_item_icon_nav">#FF8F00</color>
+    <color name="color_drawer_dark">#4F4F4F</color>
+    <color name="color_drawer_dark_side_nav_bar">#494949</color>
+    <color name="color_play_row">#3E3E3E</color>
+
+
+    <color name="color_nav_background12">#0F3F6D</color>
+    <color name="color_item_icon_nav12">#344453</color>
+    <color name="color_floatbutton">#45A6F5</color>
+    <color name="color_pink">#F50057</color>
+    <color name="color_flo">#E79451</color>
+
+
+
+
+</resources>

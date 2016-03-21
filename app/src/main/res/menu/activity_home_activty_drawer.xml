@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_homapage"
+            android:icon="@drawable/ic_menu_play"
+            android:title="Play List" />
+        <item
+            android:id="@+id/nav_favorits"
+            android:icon="@drawable/ic_menu_favori"
+            android:title="Favorilerim" />
+        <item
+            android:id="@+id/nav_sleepTime"
+            android:icon="@drawable/ic_menu_sleep_time"
+            android:title="Uyku Zamanı" />
+        <item
+
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_menu_contact"
+            android:title="İletişim" />
+    </group>
+
+
+
+</menu>
