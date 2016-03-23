@@ -148,6 +148,11 @@ public class HomeActivty extends AppCompatActivity
     ////////BEDO////////Burdan sonraki kodları ben ekledim deneme amaçlı
     public void radyoCal(){
 
+        if (mPlayer != null && mPlayer.isPlaying()) {
+            mPlayer.stop();
+
+        }
+
         mPlayer = new MediaPlayer();
 
         mPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);

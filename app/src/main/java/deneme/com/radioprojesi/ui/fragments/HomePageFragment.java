@@ -2,6 +2,7 @@ package deneme.com.radioprojesi.ui.fragments;
 
 import android.app.Fragment;
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.Snackbar;
@@ -36,7 +37,16 @@ public class HomePageFragment extends Fragment{
     ListView lview3;
     ListViewCustomAdapter adapter;
 
-    private static int icons[] = {R.drawable.super_fm, R.drawable.kral_pop,R.drawable.power_turk1,};
+
+    static final String AUDIO_PATH =
+            "http://88.191.22.108:19090/listen.pls";
+    private MediaPlayer mediaPlayer;
+    private int playbackPosition=0;
+
+    private static int icons[] = {R.drawable.istanbulfm, R.drawable.bodrumfm,R.drawable.cilekfm,R.drawable.radyo35,R.drawable.powerturk,
+            R.drawable.powerturktaptaze,R.drawable.powersmoothjazz,R.drawable.powerlove,R.drawable.powerturkakustik,R.drawable.acikradyo,R.drawable.dinamofm,
+            R.drawable.hitradyo,R.drawable.powerfm,R.drawable.powergreek,R.drawable.poweritaly,R.drawable.powerminimax,R.drawable.powerturkrock,
+            R.drawable.powerxl,R.drawable.powersalsa,R.drawable.powerdance};
     ArrayList<String> isimListesi = new ArrayList<String>() ;
     ArrayList<String> urlListesi = new ArrayList<String>() ;
 
@@ -56,6 +66,9 @@ public class HomePageFragment extends Fragment{
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
 
+
+
+
                 Toast.makeText(getActivity(), "Radyo biraz geç açılacak bi on saniye bekleyiniz.", Toast.LENGTH_LONG).show();
                 // getting values from selected ListItem
                 String name = ((TextView) view.findViewById(R.id.name))
@@ -64,26 +77,20 @@ public class HomePageFragment extends Fragment{
                         .getText().toString();
                 ImageView gelenImage = (ImageView) view.findViewById(R.id.imageView);
                 TextView txt = (TextView) getActivity().findViewById(R.id.barText);
-                txt.setText("Çalan Radyo:  " +name);
+                txt.setText("Çalan Radyo:  " + name);
                 TextView txt2 = (TextView) getActivity().findViewById(R.id.barText2);
-                txt2.setText("Çalan Url:  " +url);
+                txt2.setText("Çalan Url:  " + url);
                 ImageView imageView = (ImageView) getActivity().findViewById(R.id.barImage);
                 imageView.setImageDrawable(gelenImage.getDrawable());
 
                 //Radyo Çal çok zaman aldığı için şimdilik kapatıyorum
-                ((HomeActivty)getActivity()).radyoCal();
+                ((HomeActivty) getActivity()).radyoCal();
 
 
-                Snackbar.make(getView(), "Çalan Radyo:  " +name, Snackbar.LENGTH_LONG)
+                Snackbar.make(getView(), "Çalan Radyo:  " + name, Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
 
-//
-//
-//                Intent intent = new Intent((HomeActivty)getActivity(), MusicAndroidActivity.class) ;
-//                intent.putExtra("isim", name);
-//                intent.putExtra("url", url);
-//
-//                getActivity().startActivity(intent) ;
+
 
             }
         });
@@ -110,4 +117,7 @@ public class HomePageFragment extends Fragment{
 
         }
     }
+
+
+
 }

@@ -2,20 +2,122 @@
 <istasyonlar>
     <istasyon>
         <id>1</id>
-        <isim>SüperFM</isim>
-        <url>http://www.radyodinle.name/pop/superfm</url>
-        <resim>http://www.radyodinle.name/images/super_fm.gif"</resim>           
+        <isim>İstanbul FM</isim>
+        <url>http://46.165.197.36:8000/istanbulfm?type=SC.mp3</url>
+        <resim>""</resim>
     </istasyon>
     <istasyon>
         <id>2</id>
-        <isim>Kral Pop</isim>
-        <url>http://www.radyodinle.name/pop/superfm</url>
-        <resim>http://www.radyodinle.name/images/super_fm.gif"</resim>           
+        <isim>Bodrum FM</isim>
+        <url>http://88.255.140.50:88/broadwavehigh.mp3</url>
+        <resim>""</resim>
     </istasyon>
     <istasyon>
         <id>3</id>
+        <isim>Çilek FM</isim>
+        <url>http://radiocilekfm.com:9393/;stream.mp3</url>
+        <resim>""</resim>
+    </istasyon>
+    <istasyon>
+        <id>4</id>
+        <isim>Radyo 35</isim>
+        <url>http://46.165.197.36:8000/radyo35?type=.wmv</url>
+        <resim>""</resim>
+    </istasyon>
+    <istasyon>
+        <id>5</id>
         <isim>Power Türk</isim>
-        <url>http://www.radyodinle.name/pop/superfm</url>
-        <resim>http://www.radyodinle.name/images/super_fm.gif"</resim>           
-    </istasyon>  
+        <url>http://sc.powergroup.com.tr/PowerTurk/mpeg/128/home</url>
+        <resim>""</resim>
+    </istasyon>
+    <istasyon>
+        <id>6</id>
+        <isim>Power Türk Taptaze</isim>
+        <url>http://37.75.11.179/power/PowerTurkTaptaze_mpeg_128_home/icecast.audio?</url>
+        <resim>""</resim>
+    </istasyon>
+    <istasyon>
+        <id>7</id>
+        <isim>Power Smooth Jazz</isim>
+        <url>http://195.142.3.83/power/PowerJazz_mpeg_128_home/icecast.audio?</url>
+        <resim>""</resim>
+    </istasyon>
+    <istasyon>
+        <id>8</id>
+        <isim>Power Love</isim>
+        <url>http://195.142.3.82/power/PowerLove_mpeg_128_home/icecast.audio?</url>
+        <resim>""</resim>
+    </istasyon>
+    <istasyon>
+        <id>9</id>
+        <isim>Power Türk Akustik</isim>
+        <url>http://195.142.3.82/power/PowerTurkAkustik_mpeg_128_home/icecast.audio?</url>
+        <resim>""</resim>
+    </istasyon>
+    <istasyon>
+        <id>10</id>
+        <isim>Açık Radyo</isim>
+        <url>http://stream.34bit.net/ar64.mp3</url>
+        <resim>""</resim>
+    </istasyon>
+    <istasyon>
+        <id>11</id>
+        <isim>Dinamo FM Legacy</isim>
+        <url>http://channels.dinamo.fm/legacy-mp3</url>
+        <resim>""</resim>
+    </istasyon>
+    <istasyon>
+        <id>12</id>
+        <isim>Hit Radyo</isim>
+        <url>http://playerservices.streamtheworld.com/api/livestream-redirect/HITRADIO_MAROC.mp3</url>
+        <resim>""</resim>
+    </istasyon>
+    <istasyon>
+        <id>13</id>
+        <isim>Power FM</isim>
+        <url>http://sc.powergroup.com.tr/PowerFM/mpeg/128/home  = power fm</url>
+        <resim>""</resim>
+    </istasyon>
+    <istasyon>
+        <id>14</id>
+        <isim>Power Greece</isim>
+        <url>http://195.142.3.50/power/PowerGreek_mpeg_128_home/icecast.audio?</url>
+        <resim>""</resim>
+    </istasyon>
+    <istasyon>
+        <id>15</id>
+        <isim>Power Italy</isim>
+        <url>http://195.142.3.83/power/PowerItaly_mpeg_128_home/icecast.audio?</url>
+        <resim>""</resim>
+    </istasyon>
+    <istasyon>
+        <id>16</id>
+        <isim>Power Minimax</isim>
+        <url>http://195.142.3.50/power/PowerMiniMix_mpeg_128_home/icecast.audio?</url>
+        <resim>""</resim>
+    </istasyon>
+    <istasyon>
+        <id>17</id>
+        <isim>Power Türk Rock</isim>
+        <url>http://195.142.3.83/power/PowerTurkRock_mpeg_128_home/icecast.audio?</url>
+        <resim>""</resim>
+    </istasyon>
+    <istasyon>
+        <id>18</id>
+        <isim>Power XL</isim>
+        <url>http://195.142.3.50/power/PowerXL_mpeg_128_home/icecast.audio?</url>
+        <resim>""</resim>
+    </istasyon>
+    <istasyon>
+        <id>19</id>
+        <isim>Power Salsa</isim>
+        <url>http://195.142.3.83/power/PowerSalsa_mpeg_128_home/icecast.audio?</url>
+        <resim>""</resim>
+    </istasyon>
+    <istasyon>
+        <id>20</id>
+        <isim>Power Dance</isim>
+        <url>http://195.142.3.82/power/PowerGymTonic_mpeg_128_home/icecast.audio?</url>
+        <resim>""</resim>
+    </istasyon>
 </istasyonlar>

@@ -40,7 +40,7 @@
                         android:id="@+id/barText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Kick:Hangver"
+                        android:text="Listeden radyo seçiniz"
                         android:layout_marginTop="@dimen/_3dp"
                         android:layout_marginBottom="@dimen/_5dp"
                         android:layout_marginLeft="@dimen/_5dp"
@@ -53,7 +53,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/_1dp"
                         android:layout_marginLeft="@dimen/_5dp"
-                        android:text="Beyonce Degil :))"
+                        android:text="Radyonuz burada listelenecektir"
                         android:textColor="#ffffff"
                         />
                 </LinearLayout>

@@ -1,0 +1,9 @@
+[playlist]
+NumberOfEntries=2
+File1=http://74.109.187.48:80/
+Title1=Comedypipe
+Length1=-1
+File2=http://comedypipe.no-ip.biz:80
+Title2=Comedypipe
+Length2=-1
+Version=2
