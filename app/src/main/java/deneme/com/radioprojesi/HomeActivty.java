@@ -27,6 +27,7 @@ import java.io.IOException;
 import deneme.com.radioprojesi.helpers.Myloger;
 import deneme.com.radioprojesi.ui.fragments.HomePageFragment;
 import deneme.com.radioprojesi.ui.fragments.MyFavoriFragment;
+import deneme.com.radioprojesi.ui.fragments.SleepTimeFragment;
 
 
 public class HomeActivty extends AppCompatActivity
@@ -34,6 +35,7 @@ public class HomeActivty extends AppCompatActivity
 
     Activity activity;
     static MediaPlayer mPlayer;
+    static int counter = 0 ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -132,6 +134,10 @@ public class HomeActivty extends AppCompatActivity
 
 
         } else if (id == R.id.nav_sleepTime) {
+            SleepTimeFragment sleepTimeFragment =new SleepTimeFragment();
+            ft.replace(R.id.home_activity_linearlayout_inside_drawer, sleepTimeFragment);
+            ft.addToBackStack(sleepTimeFragment.getClass().getSimpleName());
+            ft.commitAllowingStateLoss();
 
         } else if (id == R.id.nav_contact) {
 
@@ -178,6 +184,21 @@ public class HomeActivty extends AppCompatActivity
         }
         mPlayer.start();
 
+    }
+
+    public void uykuZamani(){
+        if (mPlayer != null) {
+            mPlayer.release();
+            mPlayer = null;
+
+
+        }
+        counter++ ;
+
+    }
+
+    public int getCounter(){
+        return counter ;
     }
 
 

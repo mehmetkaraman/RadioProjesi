@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Uyku Zamanı"
+        android:textSize="@dimen/_10sp"
+        android:textColor="@color/color_pink"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="0"
+        android:id="@+id/numberview"
+        android:textStyle="bold"  />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="0"
+        android:id="@+id/dakikanumberview"
+        android:textStyle="bold"  />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="250dp"
+        android:layout_height="92dp"
+        android:weightSum="1"
+        android:layout_weight="0.32">
+
+        <NumberPicker android:id="@+id/numberpicker"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="Saat"
+            android:id="@+id/textViewSaat"
+            android:layout_gravity="center_horizontal" />
+
+        <NumberPicker android:id="@+id/numberpicker2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dakika"
+            android:id="@+id/textView"
+            android:layout_weight="0.13" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kaydet"
+        android:id="@+id/kaydetButton"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>
